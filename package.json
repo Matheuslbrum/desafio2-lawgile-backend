@@ -1,0 +1,24 @@
+{
+  "name": "api_ofc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "serverless": "^2.52.0"
+  },
+  "dependencies": {
+    "apollo-server": "^3.0.0",
+    "apollo-server-lambda": "^3.0.0",
+    "graphql": "^15.5.1",
+    "knex": "^0.95.7",
+    "mysql": "^2.18.1"
+  }
+}
