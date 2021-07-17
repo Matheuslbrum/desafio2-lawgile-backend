@@ -1,9 +1,20 @@
-type User{
+type Usuario{
     id: Int
     nome: String
     email: String
-    telefone: String
+    produtos: String
 }
+
+input UsuarioInput {
+    nome: String
+    email: String
+    produtos: String
+}
+
 type Query{
-    users: [User]
+    usuarios: [Usuario]
+}
+
+type Mutation{
+    criarUsuario(data: UsuarioInput): Usuario
 }
