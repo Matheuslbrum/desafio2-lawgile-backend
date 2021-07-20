@@ -11,13 +11,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^10.0.0",
     "nodemon": "^2.0.12",
     "serverless": "^2.52.0"
   },
   "dependencies": {
     "apollo-server": "^3.0.0",
     "apollo-server-lambda": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "graphql": "^15.5.1",
     "graphql-tools": "^7.0.5",
     "knex": "^0.95.7",
